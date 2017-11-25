@@ -1,3 +1,7 @@
+body {
+	font: 14px 'Verdana';
+}
+
 .add {
 margin: 10px;
 width: 200px;
@@ -110,3 +114,42 @@ a > .title:active {
 }
 
 /* технические характеристики и полное описание */
+
+.declaration {
+	width: 1000px;
+	margin: 40px;
+	margin-left: 140px;
+}
+
+.declaration > h2,
+.declaration > ul {
+	color: #393939;
+}
+.declaration > h1 {
+	color: #303030;
+	font-size: 3em;
+}
+
+/* Список достижений */
+
+.progress {
+	color: #393939;
+	background-color: lightgray;
+	width: 1250px;
+	margin-left: 50px;
+	height: 250px;
+	border-radius: 10px;
+	padding: 1px;
+}
+
+.progress > h1 {
+	text-align: center;
+	color: #303030;
+	font-size: 3em;
+}
+.progress > ul > li {
+	font-size: 1.5em;
+	text-align: left;
+	width: 1000px;
+}
+
