@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    background-color: ghostwhite;
+}
+
+.top-div {
+    background-color: powderblue;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid skyblue;
+}
+
+.bottom-div {
+    background-color: powderblue;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid skyblue;
+    margin-top: 20px;
+}
+
+.main-div {
+    display: inline-block;
+    border-bottom: 4px groove skyblue;
+    border-right: 4px groove skyblue;
+    border-top: 4px ridge skyblue;
+    border-left: 4px ridge skyblue;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.student-information {
+    width: 670px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.student {
+    width: 200px;
+    height: 285px;
+    background-color: silver;
+    border-bottom: 5px groove grey;
+    border-right: 5px groove grey;
+    border-top: 5px ridge grey;
+    border-left: 5px ridge grey;
+    border-radius: 25px;
+    box-shadow: 0 0 20px grey;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.information {
+    width: 200px;
+    display: inline-block;
+    background-color: silver;
+    border-bottom: 5px groove grey;
+    border-right: 5px groove grey;
+    border-top: 5px ridge grey;
+    border-left: 5px ridge grey;
+    border-radius: 35px;
+    box-shadow: 0 0 20px grey;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.name-student {
+    background-color: silver;
+    width: 180px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 20px powderblue;
+
+
+    text-align: center;
+}
+
+.img-student {
+    border: 2px dashed black;
+    width: 180px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.add-information {
+    width: 1000px;
+    min-height: 150px;
+    background-color: silver;
+    border-bottom: 5px groove grey;
+    border-right: 5px groove grey;
+    border-top: 5px ridge grey;
+    border-left: 5px ridge grey;
+    border-radius: 35px;
+    box-shadow: 0 0 20px grey;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
