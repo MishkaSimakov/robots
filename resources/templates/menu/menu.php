@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="../../templates/main/findex.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 
-    <title></title>
+    <title>Роботы</title>
 </head>
 <body>
 

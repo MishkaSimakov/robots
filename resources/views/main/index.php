@@ -1,5 +1,7 @@
 <?php
+
 require '../resources/templates/menu/menu.php';
+
 ?>
 
 
