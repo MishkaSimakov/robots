@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="fnewrobot.css">
-    <link rel="stylesheet" type="text/css" href="fmain.css">
-    <title></title>
-</head>
-<body>
-<div class="top-div">
-    <a href="..\main\index.html">
-        <div class="main-div">Главная</div>
-    </a>
-    <a href="..\students\index.html">
-        <div class="main-div">Ученики</div>
-    </a>
-    <a href="index.html">
-        <div class="main-div">Роботы</div>
-    </a>
-</div>
+<?php
+require '../resources/templates/menu/menu.php';
+?>
 
 <div>
     <h3>Добавление робота</h3>
@@ -36,6 +19,6 @@
     <input class="reg-input" type="submit">
 </form>
 
-<div class="bottom-div"></div>
-</body>
-</html>
+<?php
+require '../resources/templates/menu/footer.php';
+?>

@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="fshow.css">
-    <link rel="stylesheet" type="text/css" href="fmain.css">
-    <title></title>
-</head>
-<body>
-<div class="top-div">
-    <a href="..\main\index.html">
-        <div class="main-div">Главная</div>
-    </a>
-    <a href="index.html">
-        <div class="main-div">Ученики</div>
-    </a>
-    <a href="..\robots\index.html">
-        <div class="main-div">Роботы</div>
-    </a>
-</div>
+<?php
+require '../resources/templates/menu/menu.php';
+?>
+
 <div class="student-information">
     <div class="information">Призовых мест выйграно: 9999</div>
     <div class="student">
@@ -29,6 +13,10 @@
 <div class="add-information">
     Миша Симаков победитель по жизни в хорошем смысле. Он поучавствовал в большом количестве соревнований. Он побывал в Санкт-Петербурге, Москве, Морти-Рики, Таганрог, Цимлянск, Ростов-на-Дону.
 </div>
+
+<?php
+require '../resources/templates/menu/footer.php';
+?>
 
 
 

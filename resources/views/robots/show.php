@@ -1,27 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="..\fshow.css">
-    <link rel="stylesheet" type="text/css" href="..\fmain.css">
-    <title></title>
-</head>
-<body>
-<div class="top-div">
-    <a href="..\main\index.html">
-        <div class="main-div">Главная</div>
-    </a>
-    <a href="..\students\index.html">
-        <div class="main-div">Ученики</div>
-    </a>
-    <a href="..\index.html">
-        <div class="main-div">Роботы</div>
-    </a>
-</div>
+<?php
+require '../resources/templates/menu/menu.php';
+?>
+
 <div class="robot-information">
     <div class="information">Призовых мест выиграно: 9999</div>
     <div class="robot">
-        <img class="img-robot" src="..\img\6.jpg">
+        <img class="img-robot" src="img\6.jpg">
         <div class="name-robot"><h2>Робот</h2></div>
     </div>
     <div class="information">В соревнованих учавствовал: 9999</div>
@@ -54,12 +38,6 @@
     </ul>
 </div>
 
-
-
-
-
-
-
-<div class="bottom-div"></div>
-</body>
-</html>
+<?php
+require '../resources/templates/menu/footer.php';
+?>

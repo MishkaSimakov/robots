@@ -1,12 +1,12 @@
 <?php
 
 $addr = [
-'robots' => 'resources/index.robots.php',
-'students' => 'resources/index.students.php',
-'robot' => 'resources/show.robots.php',
-'student' => 'resources/show.students.php',
-'new_robot' => 'resources/create.robots.php',
-'' => 'resources/index.robots.php'
+'robots' => 'resources/views/robots/index.php',
+'students' => 'resources/views/students/index.php',
+'robot' => 'resources/views/robots/show.php',
+'student' => 'resources/views/students/show.php',
+'new_robot' => 'resources/views/robots/newrobot.php',
+'' => 'resources/views/main/index.php'
 ];
 
 $url = trim($_SERVER['REQUEST_URI'], '/');

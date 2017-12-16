@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title></title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../../templates/main/findex.css">
+
+    <title></title>
 </head>
 <body>
+
 	<div class="top-div">
 		<nav>
 			<ul>
@@ -13,5 +17,3 @@
 			</ul>
 		</nav>
 	</div>
-</body>
-</html>
