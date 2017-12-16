@@ -44,7 +44,6 @@ require '../resources/templates/menu/menu.php';
     </a>
 </div>
 <!-- Низ -->
-<div class="bottom-div"></div>
 
 <?php
 require '../resources/templates/menu/footer.php';

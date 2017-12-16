@@ -12,8 +12,8 @@
 	<div class="top-div">
 		<nav>
 			<ul>
-				<a href="/robots"><li>Роботы</li></a>
-				<a href="/students"><li>Ученики</li></a>
+				<a class="main-div" href="/robots"><li>Роботы</li></a>
+				<a class="main-div" href="/students"><li>Ученики</li></a>
 			</ul>
 		</nav>
 	</div>
