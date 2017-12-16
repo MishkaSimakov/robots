@@ -1,9 +1,10 @@
-.students {
+.robots {
     width: 100%;
 }
 
-.student {
+.robot {
     width: 200px;
+    height: 285px;
     background-color: rgba(13%, 29%, 73%, 0.3);
     border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
     border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
@@ -18,8 +19,9 @@
     vertical-align: middle;
 }
 
-.name-student {
-    width: 180px;
+.name-robot {
+    width: 190px;
+    min-height: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -27,22 +29,16 @@
     text-align: center;
 }
 
-.img-student {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.img-div-student {
+.img-robot {
     width: 180px;
-    max-height: 180px;
+    height: 200px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    border-radius: 10px;
     box-shadow: 0 0 15px black;
-    overflow: hidden;
+    border-radius: 10px;
 }
 
 h2 {
-    margin-top: 0px;
+    margin: 0px;
 }

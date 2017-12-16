@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    background-color: ghostwhite;
+    font: 15px 'Verdana';
+    color: grey;
+    padding-top: 62px;
+}
+
+.top-div {
+    background-color: powderblue;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid skyblue;
+    position: fixed;
+    top: 0px;
+}
+
+.bottom-div {
+    background-color: powderblue;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid skyblue;
+    margin-top: 20px;
+}
+
+.main-div {
+    display: inline-block;
+    border-bottom: 4px groove skyblue;
+    border-right: 4px groove skyblue;
+    border-top: 4px ridge skyblue;
+    border-left: 4px ridge skyblue;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.main-div:hover {
+    border-bottom: 4px ridge skyblue;
+    border-right: 4px ridge skyblue;
+    border-top: 4px groove skyblue;
+    border-left: 4px groove skyblue;
+}
