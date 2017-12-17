@@ -10,12 +10,10 @@ $query = require '../core/bootstrap.php';
 
 if ($_FILES['robot_imgaddr']['error'] != 1) {
 
-    $img_name = $_FILES['robot_imgaddr']['name'];
+    $name = $_FILES['robot_imgaddr']['name'];
     $path = $_FILES['robot_imgaddr']['tmp_name'];
-
+    move_uploaded_file($path, "../img/{$name}");
 }
-
-    dd($path);
 
 $robots = $query->insert('robots', [
 
@@ -23,7 +21,7 @@ $robots = $query->insert('robots', [
     'description' => htmlspecialchars($_POST['robot_description']),
     'characteristic' => htmlspecialchars($_POST['robot_characteristic']),
     'achivments' => htmlspecialchars($_POST['robot_achivments']),
-    'img_addr' => ''
-    ]);
+    'img_addr' => $name
+]);
 
 require "../resources/views/robots/show.php";
