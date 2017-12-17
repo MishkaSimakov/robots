@@ -162,3 +162,292 @@ h4 {
 	text-align: center;
 	font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.robot-information {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.robot {
+	width: 200px;
+	height: 285px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+}
+
+.information {
+	width: 200px;
+	display: inline-block;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	box-shadow: 0 0 20px black;
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.name-robot {
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.img-robot {
+	width: 180px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	box-shadow: 0 0 15px black;
+	border-radius: 10px;
+}
+
+.add-information {
+	width: 1000px;
+	min-height: 150px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	box-shadow: 0 0 20px black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.robot-program {
+	width: 450px;
+	min-height: 50px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 0 20px black;
+}
+
+.robot-model {
+	width: 450px;
+	min-height: 50px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 0 20px black;
+}
+
+.robot-procuring {
+	width: 926px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.robot-characteristic {
+	width: 1000px;
+	min-height: 50px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	box-shadow: 0 0 20px black;
+}
+
+h2 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+.robot-achievements {
+	width: 1000px;
+	min-height: 50px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	box-shadow: 0 0 20px black;
+}
+
+
+
+
+.students {
+	width: 100%;
+}
+
+.studentinstudents {
+	width: 200px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	margin-right: 27px;
+	margin-left: 27px;
+	margin-top: 20px;
+	display: inline-block;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+	vertical-align: middle;
+}
+
+.name-studentinstudents {
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+
+	text-align: center;
+}
+
+.img-studentinstudents {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.img-div-studentinstudents {
+	width: 180px;
+	max-height: 180px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+	overflow: hidden;
+}
+
+h2 {
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+.student-information {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.student {
+	width: 200px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+}
+
+.information {
+	width: 200px;
+	display: inline-block;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	box-shadow: 0 0 20px grey;
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.name-student {
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.img-student {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.img-div-student {
+	width: 180px;
+	max-height: 180px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+	overflow: hidden;
+}
+
+.add-information {
+	width: 1000px;
+	min-height: 150px;
+	background-color: rgba(13%, 29%, 73%, 0.3);
+	border-bottom: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-right: 5px groove rgba(13%, 29%, 73%, 0.3);
+	border-top: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-left: 5px ridge rgba(13%, 29%, 73%, 0.3);
+	border-radius: 35px;
+	box-shadow: 0 0 20px grey;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 10px;
+}

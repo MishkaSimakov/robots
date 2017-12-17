@@ -13,14 +13,14 @@ $robots = $query->selectAll('robots');
 
 <div class="robots">
 
-    <a href="newrobot.php"><div class="robotinrobots">
+    <a href="/new_robot"><div class="robotinrobots">
         <div class="name-robotinrobots">
             <h2>Добавить робота</h2>
         </div>
     </div></a>
 
     <?php foreach ($robots as $robot): ?>
-    <a href="show.php"><div class="robotinrobots">
+    <a href="/robot"><div class="robotinrobots">
         <div class="img-div-robot"><img class="img-robotinrobots" src= "<?= $robot->img_addr ?>" ></div>
         <div class="name-robotinrobots">
             <h2><?= $robot->name ?></h2>

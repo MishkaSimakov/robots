@@ -14,16 +14,7 @@ require '../resources/templates/menu/menu.php';
     Миша Симаков победитель по жизни в хорошем смысле. Он поучавствовал в большом количестве соревнований. Он побывал в Санкт-Петербурге, Москве, Морти-Рики, Таганрог, Цимлянск, Ростов-на-Дону.
 </div>
 
+
 <?php
 require '../resources/templates/menu/footer.php';
 ?>
-
-
-
-
-
-
-
-<div class="bottom-div"></div>
-</body>
-</html>
