@@ -18,7 +18,7 @@ $query = require '../core/bootstrap.php';
     <h4>Модель робота</h4>
     <input type="file" class="reg-input">
     <h4>Фотография робота</h4>
-    <input type="file" class="reg-input" accept="image/*" required>
+    <input type="file" class="reg-input" accept="image/*" name = "robot_imgaddr" required>
     <input class="reg-input" type="submit">
 </form>
 
