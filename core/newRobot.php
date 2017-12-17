@@ -6,9 +6,13 @@
  * Time: 21:00
  */
 
-$robots = $query->insert('robots', [
-    'id' => '10',
-    'name' => htmlspecialchars($_POST['robot_name'])
-]);
+$query = require '../core/bootstrap.php';
 
-require "../resources/views/robots/index.php";
+$robots = $query->insert('robots', [
+
+    'name' => htmlspecialchars($_POST['robot_name']),
+    'description' => htmlspecialchars($_POST['robot_description']),
+
+    ]);
+
+require "../resources/views/robots/show.php";
