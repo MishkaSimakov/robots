@@ -9,7 +9,6 @@ $query = require '../core/bootstrap.php';
 
 $robots = $query->selectAll('robots');
 
-dd(__DIR__ . '\..\..\..\img\мем.png');
 ?>
 
 <div class="robots">
@@ -22,7 +21,7 @@ dd(__DIR__ . '\..\..\..\img\мем.png');
 
     <?php foreach ($robots as $robot): ?>
     <a href="/robot"><div class="robotinrobots">
-        <div class="img-div-robot"><img src="" class="img-robotinrobots"></div>
+        <div class="img-div-robot"><img src="../../../img/P_20170609_221950.jpg" class="img-robotinrobots"></div>
         <div class="name-robotinrobots">
             <h2><?= $robot->name ?></h2>
         </div>

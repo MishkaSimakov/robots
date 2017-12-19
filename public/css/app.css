@@ -1,7 +1,10 @@
 /* классы для меню и подвала */
 
 
-
+.main-page-div {
+	display: inline-block;
+	text-align: center;
+}
 
 body {
 	margin: 0px;
