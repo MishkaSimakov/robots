@@ -7,8 +7,7 @@ $addr = [
 'student' => 'resources/views/students/show.php',
 'new_robot' => 'resources/views/robots/newrobot.php',
 '' => 'resources/views/robots/index.php',
-    'addingrobot' => 'core/newRobot.php',
-    #'test' => 'resources/test.html'
+    'addingrobot' => 'core/newRobot.php'
 ];
 
 $url = trim($_SERVER['REQUEST_URI'], '/');

@@ -5,7 +5,7 @@ require '../resources/templates/menu/menu.php';
 <div class="robot-information">
     <div class="information">Призовых мест выиграно: 9999</div>
     <div class="robot">
-        <img class="img-robot" src="../../../img/P_20170609_221950.jpg">
+        <img class="img-robot" src="../../../public/img/P_20170609_221950.jpg">
         <div class="name-robot"><h2>Робот</h2></div>
     </div>
     <div class="information">В соревнованих учавствовал: 9999</div>
