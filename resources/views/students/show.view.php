@@ -1,5 +1,5 @@
 <?php
-require '../resources/templates/menu/menu.php';
+require '../resources/views/partials/head.view.php';
 ?>
 
 <div class="student-information">
@@ -16,5 +16,5 @@ require '../resources/templates/menu/menu.php';
 
 
 <?php
-require '../resources/templates/menu/footer.php';
+require '../resources/views/partials/footer.view.php';
 ?>

@@ -29,4 +29,4 @@ $robots = $query->insert('robots', [
     'img_addr' => $file_name_new
 ]);
 
-require "../resources/views/robots/show.php";
+require "../resources/views/robots/show.view.php";

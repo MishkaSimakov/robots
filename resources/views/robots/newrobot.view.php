@@ -1,8 +1,5 @@
 <?php
-require '../resources/templates/menu/menu.php';
-
-$query = require '../core/bootstrap.php';
-
+require '../resources/views/partials/head.view.php';
 ?>
 
 <div>
@@ -23,5 +20,5 @@ $query = require '../core/bootstrap.php';
 </form>
 
 <?php
-require '../resources/templates/menu/footer.php';
+require '../resources/views/partials/footer.view.php';
 ?>

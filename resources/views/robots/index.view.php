@@ -1,14 +1,5 @@
 <?php
-require '../resources/templates/menu/menu.php';
-?>
-
-<!-- Верх -->
-
-<?php
-$query = require '../core/bootstrap.php';
-
-$robots = $query->selectAll('robots');
-
+require '../resources/views/partials/head.view.php';
 ?>
 
 <div class="robots">
@@ -33,5 +24,5 @@ $robots = $query->selectAll('robots');
 
 
 <?php
-require '../resources/templates/menu/footer.php';
+    require '../resources/views/partials/footer.view.php';
 ?>

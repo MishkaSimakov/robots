@@ -1,5 +1,5 @@
 <?php
-require '../resources/templates/menu/menu.php';
+require '../resources/views/partials/head.view.php';
 ?>
 
 <div class="robot-information">
@@ -39,5 +39,5 @@ require '../resources/templates/menu/menu.php';
 </div>
 
 <?php
-require '../resources/templates/menu/footer.php';
+require '../resources/views/partials/footer.view.php';
 ?>

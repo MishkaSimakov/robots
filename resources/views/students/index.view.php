@@ -1,5 +1,5 @@
 <?php
-require '../resources/templates/menu/menu.php';
+require '../resources/views/partials/head.view.php';
 ?>
 
 <!-- Верх -->
@@ -19,5 +19,5 @@ require '../resources/templates/menu/menu.php';
 
 
 <?php
-require '../resources/templates/menu/footer.php';
+require '../resources/views/partials/footer.view.php';
 ?>
