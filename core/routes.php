@@ -12,6 +12,7 @@
     $router->get('robot','PageController@robot');
     $router->get('student', 'PageController@student');
     $router->get('new_robot', 'PageController@newRobot');
+    $router->get('new_account', 'PageController@newAccount');
 
     $router->post('addingrobot', 'PageController@addingRobot');
 

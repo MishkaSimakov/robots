@@ -40,4 +40,9 @@ class PageController
         require "../core/newRobot.php";
     }
 
+    public function newAccount()
+    {
+        return view('students', 'newaccount', compact('student'));
+    }
+
 }
