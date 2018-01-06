@@ -11,9 +11,9 @@ require '../resources/views/partials/head.view.php';
     <textarea class="reg-input" placeholder="Характеристика робота" name="robot_characteristic" required></textarea>
     <textarea class="reg-input" placeholder="Достижения робота" name="robot_achivments"></textarea>
     <h4>Программа робота</h4>
-    <input type="file" class="reg-input">
+    <input type="file" class="reg-input" name="robot_program">
     <h4>Модель робота</h4>
-    <input type="file" class="reg-input">
+    <input type="file" class="reg-input" name="robot_model">
     <h4>Фотография робота</h4>
     <input type="file" class="reg-input" accept="image/*" name = "robot_imgaddr" required>
     <input class="reg-input" type="submit">

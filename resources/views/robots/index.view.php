@@ -12,8 +12,8 @@ require '../resources/views/partials/head.view.php';
 
     <?php foreach ($robots as $robot): ?>
 
-    <a href="/robot"><div class="robotinrobots">
-        <div class="img-div-robot"><img src="/img/{$robot->img_addr}" class="img-robotinrobots"></div>
+    <a href="/robot?id=<?= $robot->id ?>"><div class="robotinrobots">
+        <div class="img-div-robot"><img src="<?= "img/{$robot->img_addr}" ?>" class="img-robotinrobots"></div>
         <div class="name-robotinrobots">
             <h2><?= $robot->name ?></h2>
         </div>

@@ -1,5 +1,51 @@
 /* классы для меню и подвала */
 
+.account {
+	border-bottom: 4px groove skyblue;
+	border-right: 4px groove skyblue;
+	border-top: 4px ridge skyblue;
+	border-left: 4px ridge skyblue;
+
+	border-radius: 15px;
+	height: 42px;
+
+	position: absolute;
+	left: 1150px;
+	top: 5px;
+
+	padding: 0 10px;
+	color: #fff;
+
+	box-shadow: 0 0 20px grey;
+	display: inline-block;
+}
+
+.account:hover {
+	border-bottom: 4px ridge skyblue;
+	border-right: 4px ridge skyblue;
+	border-top: 4px groove skyblue;
+	border-left: 4px groove skyblue;
+}
+
+.account > .account_name {
+	font-weight: bold;
+	margin: 10px;
+	font-size: 1.3em;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+	color: gray;
+}
+
+.account > .account_img {
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	margin: 7px 0;
+	vertical-align: top;
+}
+
+
 
 .main-page-div {
 	display: inline-block;
@@ -177,7 +223,7 @@ h4 {
 
 
 .robot-information {
-	width: 670px;
+	width: 270px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -222,7 +268,6 @@ h4 {
 
 .img-robot {
 	width: 180px;
-	height: 200px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;

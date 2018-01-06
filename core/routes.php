@@ -7,11 +7,11 @@
  */
 
     $router->get('robots', 'PageController@home');
+    $router->get('', 'PageController@home');
     $router->get('students', 'PageController@students');
     $router->get('robot','PageController@robot');
     $router->get('student', 'PageController@student');
     $router->get('new_robot', 'PageController@newRobot');
-//    $router->get('', 'resources/views/robots/index.view.php');
-//
-//    $router->post('addingrobot', 'core/newRobot.php');
+
+    $router->post('addingrobot', 'PageController@addingRobot');
 

@@ -17,15 +17,16 @@ class QueryBuilder
 
     public function selectAll($table)
     {
-        $statment = $this->pdo->prepare('select * from '. $table);
+        $statment = $this->pdo->prepare('select * from ' . $table);
         $statment->execute();
 
         return $statment->fetchAll(PDO::FETCH_CLASS);
     }
 
-    public function insert($table, $parameters) {
+    public function insert($table, $parameters)
+    {
 
-        $sql = sprintf (
+        $sql = sprintf(
             'insert into %s (%s) values (%s)',
             $table,
             implode(', ', array_keys($parameters)),
@@ -42,4 +43,11 @@ class QueryBuilder
         }
     }
 
+    public function getFromId($table, $id)
+    {
+        $statment = $this->pdo->prepare('select * from ' . $table . ' WHERE id = ' . $id);
+        $statment->execute();
+
+        return $statment->fetchAll(PDO::FETCH_CLASS);
+    }
 }

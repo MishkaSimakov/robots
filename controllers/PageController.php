@@ -22,6 +22,7 @@ class PageController
     }
     public function robot()
     {
+        $robot = App::get('database')->getFromId('robots', $_GET['id']);
         return view('robots', 'show', compact('robot'));
     }
     public function student()
@@ -31,7 +32,12 @@ class PageController
 
     public function newRobot()
     {
-        $query = require '../core/bootstrap.php';
         return view('robots', 'newrobot', compact('query'));
     }
+
+    public function addingRobot()
+    {
+        require "../core/newRobot.php";
+    }
+
 }
