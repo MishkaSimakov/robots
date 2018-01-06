@@ -1,3 +1,6 @@
 .idea/
 core/config.php
 vendor/
+public/img/
+public/programs/
+public/3d_models/
