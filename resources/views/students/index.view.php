@@ -6,12 +6,13 @@ require '../resources/views/partials/head.view.php';
 
 
 <div class="students">
-    <a href="/student"><div class="studentinstudents">
-            <div class="img-div-studentinstudents">
-                <img class="img-studentinstudents" src="../../templates/students/img/1.jpg">
-            </div>
-            <div class="name-studentinstudents"><h2>Артём Рамазанов</h2></div>
+    <?php foreach ($students as $student): ?>
+    <a href="/student?id=<?= $student->id ?>"><div class="studentinstudents">
+                <img class="img-studentinstudents" src="<?= "img/{$student->img_addr}" ?>">
+            <div class="name-studentinstudents"><h2><?= $student->name ?></h2></div>
         </div></a>
+    <?php endforeach; ?>
+</div>
 
 
 

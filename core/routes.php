@@ -15,4 +15,5 @@
     $router->get('new_account', 'PageController@newAccount');
 
     $router->post('addingrobot', 'PageController@addingRobot');
+    $router->post('addingaccount', 'PageController@addingAccount');
 

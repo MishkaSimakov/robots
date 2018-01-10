@@ -12,21 +12,33 @@ class PageController
 {
     public function home()
     {
-        
         $robots = App::get('database')->selectAll('robots');
         return view('robots', 'index', compact('robots'));
     }
-    public function students()
-    {
-        return view('students', 'index', compact('students'));
-    }
+
     public function robot()
     {
-        $robot = App::get('database')->getFromId('robots', $_GET['id']);
+        if ($_GET['id'] != "") {
+            $robot = App::get('database')->getFromId('robots', $_GET['id']);
+        } else {
+
+        }
         return view('robots', 'show', compact('robot'));
+    }
+
+
+    public function students()
+    {
+        $students = App::get('database')->selectAll('students');
+        return view('students', 'index', compact('students'));
     }
     public function student()
     {
+        if ($_GET['id'] != "") {
+            $student = App::get('database')->getFromId('students', $_GET['id']);
+        } else {
+
+        }
         return view('students', 'show', compact('student'));
     }
 
@@ -38,6 +50,11 @@ class PageController
     public function addingRobot()
     {
         require "../core/newRobot.php";
+    }
+
+    public function addingAccount()
+    {
+        require "../core/newAccount.php";
     }
 
     public function newAccount()
