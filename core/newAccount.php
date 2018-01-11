@@ -30,6 +30,3 @@ $robots = App::get('database')->insert('students', [
     'robots_count' => 0,
     'img_addr' => $file_name_new,
 ]);
-
-$a = new PageController();
-$a->students();

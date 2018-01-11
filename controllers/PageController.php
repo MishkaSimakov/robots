@@ -20,10 +20,10 @@ class PageController
     {
         if ($_GET['id'] != "") {
             $robot = App::get('database')->getFromId('robots', $_GET['id']);
+            return view('robots', 'show', compact('robot'));
         } else {
-
+            require '../resources/views/error/error.view.php';
         }
-        return view('robots', 'show', compact('robot'));
     }
 
 
@@ -36,10 +36,10 @@ class PageController
     {
         if ($_GET['id'] != "") {
             $student = App::get('database')->getFromId('students', $_GET['id']);
+            return view('students', 'show', compact('student'));
         } else {
-
+            require '../resources/views/error/error.view.php';
         }
-        return view('students', 'show', compact('student'));
     }
 
     public function newRobot()
@@ -61,5 +61,4 @@ class PageController
     {
         return view('students', 'newaccount', compact('student'));
     }
-
 }

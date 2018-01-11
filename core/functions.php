@@ -6,6 +6,11 @@ function dd($data) {
     echo "</pre>";
 }
 
+function isLogin()
+{
+
+}
+
 function view($directory, $name, $data)
 {
     extract($data);

@@ -64,5 +64,4 @@ $robots = App::get('database')->insert('robots', [
     'img_addr' => $file_name_new_img,
 ]);
 
-$a = new PageController();
-$a->home();
+header("Location: /robots");
