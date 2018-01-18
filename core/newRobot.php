@@ -33,24 +33,24 @@ if ($_FILES['robot_program']['error'] != 1) {
     $type = explode(".", $name);
     $type = strtolower(end($type));
 
-    $file_name_new_robot = uniqid("", true) . "." . $type;
+    $file_name_new_program = uniqid("", true) . "." . $type;
 
-    move_uploaded_file($path, "programs/{$file_name_new_robot}");
+    move_uploaded_file($path, "programs/{$file_name_new_program}");
 }
 
 
 //сщхранение 3d модели робота
 
-if ($_FILES['robot_imgaddr']['error'] != 1) {
+if ($_FILES['robot_model']['error'] != 1) {
 
-    $name = $_FILES['robot_imgaddr']['name'];
-    $path = $_FILES['robot_imgaddr']['tmp_name'];
+    $name = $_FILES['robot_model']['name'];
+    $path = $_FILES['robot_model']['tmp_name'];
     $type = explode(".", $name);
     $type = strtolower(end($type));
 
-    $file_name_new = uniqid("", true) . "." . $type;
+    $file_name_new_3dmodel = uniqid("", true) . "." . $type;
 
-    move_uploaded_file($path, "img/{$file_name_new}");
+    move_uploaded_file($path, "3d_models/{$file_name_new_3dmodel}");
 }
 
 
@@ -62,6 +62,8 @@ $robots = App::get('database')->insert('robots', [
     'characteristic' => htmlspecialchars($_POST['robot_characteristic']),
     'achivments' => htmlspecialchars($_POST['robot_achivments']),
     'img_addr' => $file_name_new_img,
+    'program_addr' => $file_name_new_program,
+    'model3d_addr' => $file_name_new_3dmodel,
 ]);
 
 header("Location: /robots");
